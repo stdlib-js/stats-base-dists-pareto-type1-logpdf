@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-18)
+## Unreleased (2025-07-01)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`83af59d`](https://github.com/stdlib-js/stdlib/commit/83af59de17b7e0db3d95fb5959ec0f38cf63c88e) - **test:** increase needed tolerances for tests to pass _(by Philipp Burckhardt)_
 -   [`981457c`](https://github.com/stdlib-js/stdlib/commit/981457cd28f75549ae2ab8a67bcf78c38f8c64b1) - **docs:** update related packages sections [(#7396)](https://github.com/stdlib-js/stdlib/pull/7396) _(by stdlib-bot, Athan Reines)_
 -   [`3916b07`](https://github.com/stdlib-js/stdlib/commit/3916b07f5f5d58f21bbcdbb90465a8a65f59a97a) - **feat:** add C implementation for `@stdlib/stats-base/dists/pareto-type1/logpdf` [(#4313)](https://github.com/stdlib-js/stdlib/pull/4313) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`4d79bde`](https://github.com/stdlib-js/stdlib/commit/4d79bde011701144a125ba35d58ed42f7ecc5961) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/pareto-type1` [(#5260)](https://github.com/stdlib-js/stdlib/pull/5260) _(by GK Bishnoi)_
