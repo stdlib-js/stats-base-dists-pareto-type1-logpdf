@@ -1,7 +1,45 @@
-"use strict";var v=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var q=v(function(k,c){
-var t=require('@stdlib/math-base-assert-is-nan/dist'),o=require('@stdlib/math-base-special-ln/dist'),y=require('@stdlib/constants-float64-ninf/dist');function F(e,r,n){var i,u;return t(e)||t(r)||t(n)||r<=0||n<=0?NaN:e>=n?(u=o(r)+r*o(n),i=(r+1)*o(e),u-i):y}c.exports=F
-});var d=v(function(w,N){
-var a=require('@stdlib/utils-constant-function/dist'),f=require('@stdlib/math-base-assert-is-nan/dist'),s=require('@stdlib/math-base-special-ln/dist'),g=require('@stdlib/constants-float64-ninf/dist');function I(e,r){var n;if(f(e)||f(r)||e<=0||r<=0)return a(NaN);return n=s(e)+e*s(r),i;function i(u){return f(u)?NaN:u>=r?n-(e+1)*s(u):g}}N.exports=I
-});var O=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),m=q(),R=d();O(m,"factory",R);module.exports=m;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Evaluate the natural logarithm of the probability density function (PDF) for a Pareto (Type I) distribution.
+*
+* @module @stdlib/stats-base-dists-pareto-type1-logpdf
+*
+* @example
+* var logpdf = require( '@stdlib/stats-base-dists-pareto-type1-logpdf' );
+*
+* var y = logpdf( 4.0, 1.0, 1.0 );
+* // returns ~-2.773
+*
+* y = logpdf( 20.0, 1.0, 10.0 );
+* // returns ~-3.689
+*
+* y = logpdf( 7.0, 2.0, 6.0 );
+* // returns ~-1.561
+*
+* var mylogpdf = logpdf.factory( 0.5, 0.5 );
+*
+* y = mylogpdf( 0.8 );
+* // returns ~-0.705
+*
+* y = mylogpdf( 2.0 );
+* // returns ~-2.079
+*/
+
+// MODULES //
+
+var setReadOnly = require( '@stdlib/utils-define-nonenumerable-read-only-property/dist' );
+var main = require( './main.js' );
+var factory = require( './factory.js' );
+
+
+// MAIN //
+
+setReadOnly( main, 'factory', factory );
+
+
+// EXPORTS //
+
+module.exports = main;
