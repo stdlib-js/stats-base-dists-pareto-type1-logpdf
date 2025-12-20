@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-07)
+## Unreleased (2025-12-20)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`ee22a7f`](https://github.com/stdlib-js/stdlib/commit/ee22a7f42d7a8733c2ae503a4085a942de386983) - **docs:** replace manual `for` loop in examples [(#9057)](https://github.com/stdlib-js/stdlib/pull/9057) _(by Harsh Yadav)_
 -   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -41,7 +42,7 @@ A total of 2 issues were closed in this release:
 -   [`83af59d`](https://github.com/stdlib-js/stdlib/commit/83af59de17b7e0db3d95fb5959ec0f38cf63c88e) - **test:** increase needed tolerances for tests to pass _(by Philipp Burckhardt)_
 -   [`981457c`](https://github.com/stdlib-js/stdlib/commit/981457cd28f75549ae2ab8a67bcf78c38f8c64b1) - **docs:** update related packages sections [(#7396)](https://github.com/stdlib-js/stdlib/pull/7396) _(by stdlib-bot, Athan Reines)_
 -   [`3916b07`](https://github.com/stdlib-js/stdlib/commit/3916b07f5f5d58f21bbcdbb90465a8a65f59a97a) - **feat:** add C implementation for `@stdlib/stats-base/dists/pareto-type1/logpdf` [(#4313)](https://github.com/stdlib-js/stdlib/pull/4313) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
--   [`4d79bde`](https://github.com/stdlib-js/stdlib/commit/4d79bde011701144a125ba35d58ed42f7ecc5961) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/pareto-type1` [(#5260)](https://github.com/stdlib-js/stdlib/pull/5260) _(by GK Bishnoi)_
+-   [`4d79bde`](https://github.com/stdlib-js/stdlib/commit/4d79bde011701144a125ba35d58ed42f7ecc5961) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/pareto-type1` [(#5260)](https://github.com/stdlib-js/stdlib/pull/5260) _(by Gopi Kishan)_
 
 </details>
 
@@ -53,11 +54,12 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Dhruv Arvind Singh
--   GK Bishnoi
+-   Gopi Kishan
+-   Harsh Yadav
 -   Philipp Burckhardt
 
 </section>
