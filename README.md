@@ -65,13 +65,13 @@ where `alpha > 0` is the shape parameter and `beta > 0` is the scale parameter.
 ## Usage
 
 ```javascript
-import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-logpdf@esm/index.mjs';
+import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-logpdf@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-logpdf@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-logpdf@v0.3.0-esm/index.mjs';
 ```
 
 #### logpdf( x, alpha, beta )
@@ -172,7 +172,7 @@ y = mylogpdf( 2.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-logpdf@esm/index.mjs';
+import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-logpdf@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
